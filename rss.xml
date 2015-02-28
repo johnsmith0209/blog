@@ -5,7 +5,7 @@ layout: nil
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-		<link>http://johnsmith0209.github.com/blog</link>
+		<link>http://johnsmith0209.github.io/blog</link>
 		<atom:link href="http://johnsmith0209.github.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>Recording life</description>
 		<language>zh-cn</language>
@@ -15,7 +15,7 @@ layout: nil
     {% for post in site.posts limit:10 %}
     <item>
       <title>{{ post.title }}</title>
-			<link>http://johnsmith0209.github.com/blog/{{ post.url }}</link>
+			<link>http://johnsmith0209.github.io/blog/{{ post.url }}</link>
       <pubDate>{{ post.date | date_to_string }}</pubDate>
       <author>Tony Tsai</author>
       <guid>{{ post.id }}</guid>
